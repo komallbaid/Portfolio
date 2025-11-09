@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "owner": "Komal Baid",
+    "tagline": "Building fast, reliable, human-friendly software."
+  },
+  "hero": {
+    "title": "Hi, I'm Komal",
+    "subtitle": "SDE • Full-Stack • Problem Solver",
+    "cta_primary": { "label": "View Projects", "href": "#projects" },
+    "cta_secondary": { "label": "Download Resume", "href": "/Komal_resume_latest.pdf" }
+  },
+  "about": {
+    "blurb": "Software Developer (SDE) focused on full-stack web development, strong fundamentals in DSA/OS/DBMS, and hands-on experience building real-time and data-driven apps.",
+    "skills": {
+      "languages": ["C++", "C", "Python", "JavaScript", "TypeScript", "SQL"],
+      "frameworks_tools": ["React", "Next.js", "Node.js", "Express", "TailwindCSS", "MongoDB", "Git", "Vercel", "Render", "MongoDB Atlas", "Chart.js"]
+    }
+  },
+  "experience": [
+    {
+      "company": "IgniteU Learning Ventures Pvt. Ltd.",
+      "title": "Software Development Intern",
+      "location": "Hybrid – Noida, Uttar Pradesh",
+      "start": "2025-03",
+      "end": "2025-04",
+      "highlights": [
+        "Built a Student Performance Analytics Dashboard for tracking learner engagement and outcomes.",
+        "Implemented interactive visualizations in React (Chart.js) reducing analysis time by ~40%.",
+        "Supported deployments using Vercel, Render, and MongoDB Atlas."
+      ]
+    },
+    {
+      "company": "Elevate Labs",
+      "title": "Web Development Intern — Best Performer",
+      "location": "Remote",
+      "start": "2025-08",
+      "end": "2025-09",
+      "highlights": [
+        "Completed a 15-day intensive track to strengthen core web dev skills.",
+        "Built 'GitHub Explorer' using REST APIs and MongoDB to analyze repos and user profiles."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Prediction Market Exchange",
+      "stack": ["Next.js", "Node.js", "TypeScript", "WebSockets", "JWT"],
+      "summary": "Real-time trading platform for prediction markets with scalable backend.",
+      "highlights": [
+        "Custom order-matching system and portfolio tracker.",
+        "AI-based market creation for trending events.",
+        "Secure auth with JWT and live WebSocket updates."
+      ]
+    },
+    {
+      "name": "Real-Time Focus Master – Productivity Web App",
+      "stack": ["React", "TypeScript", "TailwindCSS"],
+      "summary": "Pomodoro + task tracker + analytics dashboards.",
+      "highlights": [
+        "Optimized rendering with React.memo; persistent state via localStorage.",
+        "Responsive UI, dark mode, accessibility built-in."
+      ]
+    },
+    {
+      "name": "Driver’s Drowsiness Detection System",
+      "stack": ["Python", "YOLOv5", "YOLOv8"],
+      "summary": "Real-time drowsiness detection using CNN-based YOLO models.",
+      "highlights": [
+        "Detected eye closure & yawning on video stream in real-time.",
+        "~92% accuracy on custom dataset (YOLOv8)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "VIT Bhopal University",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "location": "Bhopal, India",
+      "cgpa": "8.73",
+      "start": "2022-08",
+      "end": "2026-05"
+    }
+  ],
+  "achievements": ["250+ LeetCode", "1200+ Codeforces (Pupil)"],
+  "leadership": [],
+  "contact": {
+    "email": "komalbaid2000@gmail.com",
+    "github": "https://github.com/komallbaid",
+    "linkedin": "https://linkedin.com/in/komallbaid",
+    "location": "India"
+  }
+}
