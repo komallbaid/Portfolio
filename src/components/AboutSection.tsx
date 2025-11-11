@@ -3,18 +3,18 @@ import { Award, Languages } from 'lucide-react';
 
 const technicalSkills = {
   languages: [
-    'C++', 'C', 'JavaScript', 'MySQL', 'PostgreSQL'
+    'C++', 'C', 'JavaScript', 'TypeScript','SQL', 'HTML','CSS'
   ],
   frameworkTools: [
-    'React','Node.js','Express.js','TailwindCSS', 'MongoDB','Git', 'VS Code'
+    'React.js', 'Node.js', 'Express.js', 'MongoDB', 'TailwindCSS', 'Bootstrap', 'Matplotlib', 'OpenCV', 'YOLO'
   ],
   coursework: [
-    'Data Structures and Algorithms', 'OOP', 'Operating Systems', 'Database Management', 'SQL',
-    'Computer Networks'
+    'GitHub', 'Docker', 'WebSocket', 'REST APIs', 'Tableau', 'VS Code'
+
   ],
   blockchainWeb3: [
-    'Solidity', 'Hardhat', 'ether.js', 'Slither', 'Foundry',
-    'Smart Contracts', 'DeFi', 'Web3'
+    'Data Structures & Algorithms', 'OOP', 'DBMS', 'Operating Systems', 'Computer Networks'
+
   ]
 };
 
@@ -61,10 +61,9 @@ export function AboutSection() {
               </h3>
               <div className="space-y-3">
                 {[
-                  'Published research in quantitative finance journals',
-                  'Developed profitable algorithmic trading strategies',
-                  'AWS & Azure cloud certifications',
-                  'Top performer in competitive programming contests',
+                  'Solved 250+ DSA problems across coding platforms',
+                  'Completed Smartbridge FullStack (MERN) MongoDB Developer Certification',
+                  'Completed IBM-Adroit Generative AI training and certification',
                 ].map((achievement, i) => (
                   <motion.div
                     key={i}
@@ -122,7 +121,7 @@ export function AboutSection() {
                 viewport={{ once: true }}
                 className="p-5 rounded-xl bg-gradient-to-br from-white/5 to-white/10 border border-white/10 backdrop-blur-sm hover:border-primary/30 transition-all duration-300"
               >
-                <h4 className="mb-3 text-sm text-primary">Frameworks and Tools</h4>
+                <h4 className="mb-3 text-sm text-primary">Frameworks & Libraries</h4>
                 <div className="flex flex-wrap gap-2">
                   {technicalSkills.frameworkTools.map((skill) => (
                     <span
@@ -143,7 +142,7 @@ export function AboutSection() {
                 viewport={{ once: true }}
                 className="p-5 rounded-xl bg-gradient-to-br from-white/5 to-white/10 border border-white/10 backdrop-blur-sm hover:border-primary/30 transition-all duration-300"
               >
-                <h4 className="mb-3 text-sm text-primary">Coursework</h4>
+                <h4 className="mb-3 text-sm text-primary">Tools & Platforms</h4>
                 {/* <p className="text-xs text-muted-foreground mb-2">Solved 700+ questions covering:</p> */}
                 <div className="flex flex-wrap gap-2">
                   {technicalSkills.coursework.map((skill) => (
@@ -165,7 +164,7 @@ export function AboutSection() {
                 viewport={{ once: true }}
                 className="p-5 rounded-xl bg-gradient-to-br from-white/5 to-white/10 border border-white/10 backdrop-blur-sm hover:border-primary/30 transition-all duration-300"
               >
-                <h4 className="mb-3 text-sm text-primary">Blockchain & Web3</h4>
+                <h4 className="mb-3 text-sm text-primary">Coursework</h4>
                 <div className="flex flex-wrap gap-2">
                   {technicalSkills.blockchainWeb3.map((skill) => (
                     <span

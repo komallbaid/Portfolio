@@ -4,24 +4,24 @@ import { Button } from './ui/button';
 
 const projects = [
   {
-    title: 'Algorithmic Trading Bot',
-    description: 'High-frequency trading bot using ML models for market prediction and automated execution.',
-    tech: ['Python', 'TensorFlow', 'Pandas', 'WebSocket'],
-    github: 'https://github.com',
+    title: 'Real-Time Event Prediction Market',
+    description: 'A real-time prediction platform with dynamic pricing, user sentiment analysis, and LLM-powered market creation.',
+    tech: ['React', 'TypeScript', 'Node.js', 'WebSocket', 'PostgreSQL', 'LLM APIs'],
+    github: 'https://github.com/komallbaid',
     demo: 'https://example.com',
   },
   {
-    title: 'Stock Research Platform',
-    description: 'Real-time stock analysis platform with fundamental & technical indicators, sentiment analysis.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Chart.js'],
-    github: 'https://github.com',
+    title: 'Focus Master – Productivity App',
+    description: 'A productivity tool combining Pomodoro, task management, and analytics to boost focus and workflow efficiency.',
+    tech: ['React', 'TypeScript', 'TailwindCSS'],
+    github: 'https://github.com/komallbaid',
     demo: 'https://example.com',
   },
   {
-    title: 'ARTEX - AR Trading Experience',
-    description: 'Augmented reality application for visualizing trading data and portfolio management in 3D space.',
-    tech: ['Unity', 'C#', 'ARCore', 'Firebase'],
-    github: 'https://github.com',
+    title: 'Vision in Dark – Low-Light CV System',
+    description: 'Computer vision pipeline for detecting vehicles and pedestrians in low-light environments using enhanced models.',
+    tech: ['Python', 'OpenCV', 'YOLOv8', 'TensorFlow'],
+    github: 'https://github.com/komallbaid',
     demo: null,
   },
   {

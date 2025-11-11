@@ -4,13 +4,13 @@ import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { useState } from 'react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
-    name: 'Komal Baid',
-    email: 'komalbaid2000@gmail.com',
-    message: 'Reach out!',
+    name: '',
+    email: '',
+    message: '',
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -31,8 +31,8 @@ export function ContactSection() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'komalbaid@example.com',
-      link: 'mailto:shreyansh@example.com',
+      value: 'komalbaid2000@gmail.com',
+      link: 'komalbaid2000@gmail.com',
     },
     {
       icon: Phone,

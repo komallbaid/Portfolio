@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { ChevronDown, Sparkles } from 'lucide-react';
 import { Button } from './ui/button';
 
-const roles = ['Software Engineer','Full-Stack Developer'];
+const roles = ['Software Engineer','Full-Stack Developer','Problem Solver'];
 
 export function HeroSection() {
   const [currentRole, setCurrentRole] = useState(0);
@@ -77,7 +77,7 @@ export function HeroSection() {
               className="flex items-center gap-2"
             >
               <Sparkles className="text-primary w-5 h-5" />
-              <span className="text-muted-foreground tracking-wider uppercase text-sm"></span>
+              <span className="text-muted-foreground tracking-wider uppercase text-sm">Hi, My name is</span>
             </motion.div>
 
             {/* Name */}

@@ -46,7 +46,7 @@ export function Navigation() {
           <div className="flex items-center gap-3">
             <div className="relative">
               <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-[0_0_20px_rgba(0,212,255,0.3)]">
-                <span className="text-2xl text-primary-foreground">SJ</span>
+                <span className="text-2xl text-primary-foreground">KB</span>
               </div>
               <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-primary to-accent blur-lg opacity-30" />
             </div>
@@ -78,7 +78,7 @@ export function Navigation() {
           {/* Social Links */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com"
+              href="https://github.com/komallbaid"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-lg bg-white/5 hover:bg-white/10 flex items-center justify-center transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,212,255,0.4)] hover:text-primary"
@@ -86,7 +86,7 @@ export function Navigation() {
               <Github size={18} />
             </a>
             <a
-              href="https://www.linkedin.com/in/shreyanshjain13/"
+              href="https://www.linkedin.com/in/komallbaid/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-lg bg-white/5 hover:bg-white/10 flex items-center justify-center transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,212,255,0.4)] hover:text-primary"
@@ -94,7 +94,7 @@ export function Navigation() {
               <Linkedin size={18} />
             </a>
             <a
-              href="https://wa.me/917827673166"
+              href="https://wa.me/919109529801"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-lg bg-white/5 hover:bg-white/10 flex items-center justify-center transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,212,255,0.4)] hover:text-primary"

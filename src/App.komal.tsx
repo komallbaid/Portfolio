@@ -1,9 +1,9 @@
-
 import { Navigation } from './components/Navigation';
 import { HeroSection } from './components/HeroSection';
 import { AboutSection } from './components/AboutSection';
 import { ExperienceSection } from './components/ExperienceSection';
 import { ProjectsSection } from './components/ProjectsSection';
+import { ContactSection } from './components/ContactSection';
 import { ResumeSection } from './components/ResumeSection';
 import { Footer } from './components/Footer';
 import { AnimatedBackground } from './components/AnimatedBackground';
@@ -45,6 +45,7 @@ export default function App() {
         <AboutSection about={content.about} />
         <ExperienceSection experience={content.experience} />
         <ProjectsSection projects={content.projects} />
+        <ContactSection />
         <ResumeSection resumeHref={content.hero?.cta_secondary?.href ?? "/Komal_resume_latest.pdf"} />
         <Footer contact={content.contact} />
       </div>
